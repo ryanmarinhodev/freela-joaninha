@@ -1,5 +1,5 @@
 const PHONE = '5583999369990';
-const HEART = String.fromCodePoint(0x1f49b);
+const HEART = String.fromCodePoint(0x1f90e);
 
 function waLink(message) {
   const url = new URL(`https://api.whatsapp.com/send`);
@@ -26,9 +26,9 @@ function setExternalLink(id, url) {
   el.rel = 'noopener noreferrer';
 }
 
-setLink('btn-comprar', `Vim pela CDSC e gostaria de comprar uma peça que vi no instagram ${HEART}`);
+setLink('btn-comprar', `Vim pela Joaninha e gostaria de comprar uma peça que vi no instagram ${HEART}`);
 
-setLink('btn-agendar', `Gostaria de agendar um encontro para ver as peças disponíveis da CDSC ${HEART}`);
+setLink('btn-agendar', `Gostaria de agendar um encontro para ver as peças disponíveis da Joaninha ${HEART}`);
 
 setLink('btn-desapegar', `Olá! Quero desapegar das minhas chiques. Como faço? ${HEART}`);
 
