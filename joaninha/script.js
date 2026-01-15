@@ -30,7 +30,7 @@ setLink('btn-comprar', `Vim pela Joaninha e gostaria de comprar uma peça que vi
 
 setLink('btn-agendar', `Gostaria de agendar um encontro para ver as peças disponíveis da Joaninha ${HEART}`);
 
-setLink('btn-desapegar', `Olá! Quero desapegar das minhas chiques. Como faço? ${HEART}`);
+setLink('btn-desapegar', `Olá! gostaria de fornecer para a Joaninha. Como funciona? ${HEART}`);
 
 setExternalLink('btn-saldo', 'http://sistema.4brick.com.br/common/251/cliente/login');
 
